@@ -10,7 +10,7 @@ body
 #container
 {
     width: 600px;
-    height: 800px;
+    height: 620px;
     border: solid 1px #BDBDBD;
     margin-left: auto ;
     margin-right: auto ;
@@ -37,8 +37,6 @@ body
 
 
 a[href="#maincontent"]
-
-
 {
     display:none;
 }
@@ -79,13 +77,106 @@ a[href="#maincontent"]
     margin-right: 1px;
     text-decoration: none;
     background-color: #797066;
-    color: #EAE7D2;
     font-family: Verdana;
     font-size: 12px;
+    color: #EAE7D2;
 }
 
 
 #menu a:hover 
 {
     background-color: #9C9084;
+}
+
+
+#menu .active a 
+{
+    background-color:#EAE7D2;
+    color:#797066;
+} 
+
+
+#maincontent
+{
+    width: 320px;
+    overflow: auto;
+    display: block;
+    float: left;
+    font-family: verdana;
+    font-size: 12px;
+    color: #797066;
+    padding: 10px;
+}
+
+
+#maincontent img 
+{
+    float:left;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+
+#subcontent 
+{
+    width: 200px;
+    float: left;
+    padding-left: 10px;
+    margin-top: 15px;
+    display: block;
+    border-left: 1px dashed #BDBDBD;
+    font-family: verdana;
+    font-size: 12px;
+    color: #797066;
+}
+
+
+#subcontent ul 
+{
+    list-style-type: none;
+    padding: 0px;
+}
+
+
+#subcontent a 
+{
+    font-family: Verdana;
+    font-size: 12px;
+    color:#51473D;
+}
+
+
+#subcontent h1 
+{
+    font-size: 16px;
+    color: #51473D;
+}
+
+
+#bottomcontent 
+{
+    max-width:600px;
+    clear: both;
+    margin-left:20px;
+    font-family:Verdana;
+    font-size: 10px;
+    color:#797066;
+    font-style:italic;
+}
+
+
+
+
+h1 
+{
+    color:#797066;
+    font-size: 20px;
+}
+
+
+h2 
+{
+    color:#797066;
+    font-weight: normal;
+    font-size: 14px;
 }

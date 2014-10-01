@@ -10,7 +10,7 @@ body
 #container
 {
     width: 600px;
-    height: 620px;
+    height: 595px;
     border: solid 1px #BDBDBD;
     margin-left: auto ;
     margin-right: auto ;
@@ -21,8 +21,7 @@ body
 #topbar
 {
     width: auto;
-    height: 225px;
-    
+    height: 215px;
     background: url("pics/coffey.jpg") no-repeat;
     background-position: bottom;
     background-color: #51473D;
@@ -31,7 +30,7 @@ body
     color: #ffffff;
     font-style:italic;
     text-align: right;
-    padding-top: 8px;
+    padding-top: 5px;
     padding-right: 5px;
 }
 
